@@ -9,6 +9,7 @@ import {
 import Home from './Components/Home';
 import Main from './Components/Layout/Main';
 import OrderReview from './Components/OrderReview';
+import Grandpa from './Components/Grandpa';
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
         path:'/',
         element:<Home></Home>,
         loader: () => fetch('tshirt.json')
+      },
+      {
+        path:'grandpa',
+        element:<Grandpa></Grandpa>
       },
       {
         path:'review',
