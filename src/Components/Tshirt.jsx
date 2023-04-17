@@ -10,6 +10,8 @@ const Tshirt = ({tshirt,handleAddToCart}) => {
            <p>Price:${price}</p>
            <button onClick={ () => handleAddToCart(tshirt)}>Buy Now</button>
            
+         
+           
 
         </div>
     );
